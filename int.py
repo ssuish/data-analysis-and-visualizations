@@ -10,3 +10,5 @@ class Sample1:
 
 g1 = Sample1("First Name", "Last Name", "Interest", 1234)
 print("Guest last name: " + g1.last)
+
+# Dictionary
