@@ -28,3 +28,9 @@ print(quiz_score.items()) # returns a tuple of key value pairs
 # Nested Dictionaries
 characters = {1:{"name": "something", "Element":"Ice"}, 2:{"name": "something"}}
 
+# Creating, Writing, and Appending Files 
+f = open("new file.txt", "w") # write - writes a file or create it if doesn't exist.
+f = open("new file.txt", "x") # create - create the specified file, returns error if it exist.
+f = open("new file.txt", "a") # append - appending files or create it if doesn't exist.
+
+# Reading files
