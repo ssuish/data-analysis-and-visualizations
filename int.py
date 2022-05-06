@@ -1,6 +1,9 @@
 # MUST KNOW BASIC PYTHON
 
 # Init Method
+from cmath import exp
+
+
 class Sample1:
     def __init__(self, first, last, interest, phone):
         self.first = first
@@ -34,3 +37,20 @@ f = open("new file.txt", "x") # create - create the specified file, returns erro
 f = open("new file.txt", "a") # append - appending files or create it if doesn't exist.
 
 # Reading files
+f = open("new file.txt", "r") # open and read files
+f.close() # close opened file
+
+# Exceptions
+n = -5
+if n < 0:
+    raise Exception("No negative allowed") # user-defined errors
+
+try:
+    print(rand_number)
+except:
+    print("DOesn't exist!")
+finally:
+    print("run this anyways")
+
+# Modules
+
