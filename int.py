@@ -2,6 +2,7 @@
 
 # Init Method
 from cmath import exp
+from time import strftime
 
 
 class Sample1:
@@ -53,4 +54,24 @@ finally:
     print("run this anyways")
 
 # Modules
+
+# import module1 as m1
+# - import keyword used to import modules.
+# - as keyword used to create alias or rename a module.
+def getSum(x ,y):
+    return x + y
+    # return keyword used to to send info back to where a function called.
+
+# from module1 import *
+# sum = getSum(9, 4)
+# - from keyword is used to import only certain section from a module.
+
+help("modules") # provides a list of all the built-in modules in python
+dir(person) # returns a list of valid attributes of the object
+from random import randint # is a module that provides pseudo-random numbers
+import datetime # provids classes which allow us to work with date and time.
+strftime("%B") # used to make strings out of our imported date objects
+
+# pip - standard packgage manager for python
+
 
