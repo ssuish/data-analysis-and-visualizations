@@ -46,6 +46,9 @@ n = -5
 if n < 0:
     raise Exception("No negative allowed") # user-defined errors
 
+rand_number = 0
+person = "hello"
+
 try:
     print(rand_number)
 except:
