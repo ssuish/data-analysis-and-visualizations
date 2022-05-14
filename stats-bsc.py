@@ -1,7 +1,3 @@
-import statistics as st
-from tkinter import N 
-import numpy as np
-import pandas as ps
 
 n_num=[78, 80, 79, 80, 87, 85]
 n = len(n_num)
@@ -50,3 +46,10 @@ def friend_variance(scores):
 v = round(friend_variance(friends), 2)
 print("Variance: ", v)
 
+# Standard deviation | vanilla
+def friend_std_dev(variance):
+    return variance ** 0.5
+
+variance = friend_variance(friends)
+s = round(friend_std_dev(variance), 2)
+print("Standard deviation: ", s)
