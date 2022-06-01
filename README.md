@@ -1,2 +1,2 @@
 # ds-basics
-This repo is for writing basic programs for data science and visualizations
+This repo is for writing basic programs for data analysis and visualizations
